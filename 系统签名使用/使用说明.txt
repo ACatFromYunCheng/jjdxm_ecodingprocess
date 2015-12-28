@@ -1,0 +1,27 @@
+ps:目前这边开发的一个launcher应用有一些功能需要获得系统权限才能实现（像修改系统时间之类的权限），这个后期需要加入系统应用中。
+要获取系统权限目前我了解的有两种方式：
+（1）第一种方法需要有Android源代码，这样才能在Android源代码下通过mm进行编译，其中具体的步骤如下：
+1. 在应用程序的AndroidManifest.xml中的manifest节点中加入 android:sharedUserId="android.uid.system"这个属性。
+2. 修改Android.mk文件，加入LOCAL_CERTIFICATE := platform这一行 ，此处的作用就是获取系统签名
+3. 使用mm命令来编译，生成的apk就有修改系统时间的权限了。
+一般的获取系统权限都是通过如下的方法，但是该方法需要系统源码才可以。
+（2）第二个方法麻烦点，不过不用开虚拟机跑到源码环境下用make来编译，可以先将系统签名文件导出备用
+ 1. 同上，加入android:sharedUserId="android.uid.system"这个属性。 
+ 2. 使用eclipse编译出apk文件，但是这个apk文件是不能用的。
+ 3. 使用目标系统的platform密钥来重新给apk文件签名。
+这步比较麻烦，首先找到密钥文件，
+在我的Android源码目录中的位置 是"build/target/product/security"，
+下面的platform.pk8和platform.x509.pem两个文件。
+然后用 Android提供的Signapk工具来签名，: 在 android目录下/out/host/linux-x86/framework/signapk.jar 
+用法为：java -jar signapk.jar platform.x509.pem platform.pk8 test.apk test_signed.apk，文件名最好使用绝对路径防止找不到。其中的test.apk是没有签名前的，test_signed.apk是签名后的。
+
+然后打开cmd命令编辑器，建议下载PowerCmd方便操作。
+输入adb shell回车
+输入su回车
+输入mount -o rw,remount /system回车
+
+再打开另外一个cmd命令编辑器
+输入adb push "你的apk绝对路径" system/app回车
+当出现
+XXXXkb/s     0.XXXs时表示已经放到系统应用下
+输入adb reboot回车

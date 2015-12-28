@@ -1,0 +1,26 @@
+
+
+
+adb kill-server 杀死adb
+adb start-server 启动adb
+adb devices 查看有多少连接设备
+adb connect 192.168.1.210 连接设备
+adb discnnect 192.168.1.210 断开设备
+adb [-s 设备名称] install 安装路径
+	单个设备连接
+	adb install D:/ming.apk 安装
+	多个设备连接
+	adb -s 192.168.1.211:5555 install D:/ming.apk 安装
+	adb -s RLNE5V00S2 install -r C:\Users\Administrator\Desktop\ElectricClassroomLauncher1.0.4.apk 强制安装
+	
+adb [-s 设备名称] logcat 捕捉日志
+adb [-s 设备名称] logcat -f D:/123.txt 输出日志
+adb [-s 设备名称] push D:/123.txt mnt/sdcard/ 将文件推进设备中
+adb [-s 设备名称] pull mnt/sdcard/ D:/123.txt 将文件从设备中拉出
+adb [-s 设备名称] shell
+
+
+adb shell 之后
+mount -o rw,remount /system 挂载目录，可进行删除等操作
+rm mnt/sdcard/123.txt 删除文件
+adb logcat > D:/123.txt
