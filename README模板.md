@@ -1,11 +1,14 @@
 
-# [jjdxmplayer][project] #
+# [jjdxmperiscope][project] #
 ## Introduction ##
-
+[apk下载][downapk]
 ## Features ##
 
 ## Screenshots ##
 
+<img src="https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon01.png" width="300"> 
+<img src="https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon02.png" width="300"> 
+> 
 ## Get Started ##
 
 ## More Actions ##
@@ -43,7 +46,11 @@ If you find any bug when using project, please report [here][issues]. Thanks for
 
 
 
-[github]:https://github.com/jjdxmashl/
-[project]:https://github.com/jjdxmashl/jjdxmplayer/
-[issues]:https://github.com/jjdxmashl/jjdxmplayer/issues/new
+
 [web]:http://www.dou361.com
+[github]:https://github.com/jjdxmashl/
+[project]:https://github.com/jjdxmashl/jjdxmperiscope/
+[issues]:https://github.com/jjdxmashl/jjdxmperiscope/issues/new
+[downapk]:https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/apk/app-debug.apk
+[icon01]:https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon01.png
+[icon02]:https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon02.png
