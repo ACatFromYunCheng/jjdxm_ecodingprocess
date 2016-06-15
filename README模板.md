@@ -8,7 +8,7 @@
 
 <img src="https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon01.png" width="300"> 
 <img src="https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon02.png" width="300"> 
-> 
+ 
 ## Get Started ##
 
 ## More Actions ##
