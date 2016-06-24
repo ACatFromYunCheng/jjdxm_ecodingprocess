@@ -1,9 +1,12 @@
 # 开发流程 #
 
-AndroidStudiosettings.jar 为Android Studio的设置导出包
+### Android Studio偏好设置 ###
+AndroidStudiosettings.jar文件
+
+为Android Studio的设置导出包
 
 
-library 在Android studio 中生成jar包
+### library 在Android studio 中生成jar包 ###
 
 在library对于目录下的build.gradle中添加以下代码
 
@@ -23,3 +26,14 @@ library 在Android studio 中生成jar包
     }
 
 点击buildLib方法名，右键运行gradle:buildLib方法，等待jar生成，完成后在build.gradle同目录下回找到对应的jar包
+
+### gradle在Android Studio中常用的配置 ###
+
+#### bulidlib.gradle 复制到项目根目录 ####
+#### bintray.gradle 复制到项目根目录 ####
+#### build模板主程序app.gradle 复制到项目根目录 ####
+#### signing.properties 复制到项目根目录 ####
+#### debug.keystore 复制到项目根目录 ####
+#### README模板.md 复制到项目根目录 ####
+#### build模板library.gradle 复制到项目的module类库目录下 ####
+#### build模板根项目.gradle 复制到项目的主程序目录下 ####
