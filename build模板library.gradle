@@ -23,6 +23,9 @@ ext {
     jjdxm_licenseName = 'The Apache Software License, Version 2.0'
     jjdxm_licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     jjdxm_allLicenses = ["Apache-2.0"]
+	
+    jjdxm_singlePath = 'build/intermediates/classes/release'
+    jjdxm_singleJar = jjdxm_artifactId+'-'+jjdxm_libraryVersion+'.jar'
 }
 
 android {
@@ -48,5 +51,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-//apply from: 'https://raw.githubusercontent.com/jjdxmashl/jjdxm_update/master/bulidlib.gradle'
-//apply from: 'https://raw.githubusercontent.com/jjdxmashl/jjdxm_update/master/bintray.gradle'
+//apply from: 'https://raw.githubusercontent.com/jjdxmashl/jjdxm_ecodingprocess/master/bulidlib.gradle'
+//apply from: 'https://raw.githubusercontent.com/jjdxmashl/jjdxm_ecodingprocess/master/bintray.gradle'

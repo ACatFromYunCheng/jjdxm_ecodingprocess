@@ -9,6 +9,29 @@
 <img src="https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon01.png" width="300"> 
 <img src="https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon02.png" width="300"> 
  
+## Download ##
+
+[demo apk下载][downapk]
+
+[下载最新版本aar][lastaar]
+
+[下载最新版本jar][lastjar]
+
+Download or grab via Maven:
+
+	<dependency>
+	  <groupId>com.dou361.periscope</groupId>
+	  <artifactId>jjdxm-periscope</artifactId>
+	  <version>x.x.x</version>
+	</dependency>
+
+or Gradle:
+
+	compile 'com.dou361.periscope:jjdxm-periscope:x.x.x'
+
+
+jjdxm-update requires at minimum Java 15 or Android 4.0.
+
 ## Get Started ##
 
 ## More Actions ##
@@ -52,5 +75,7 @@ If you find any bug when using project, please report [here][issues]. Thanks for
 [project]:https://github.com/jjdxmashl/jjdxmperiscope/
 [issues]:https://github.com/jjdxmashl/jjdxmperiscope/issues/new
 [downapk]:https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/apk/app-debug.apk
+[lastaar]:https://search.maven.org/remote_content?g=com.dou361.periscope&a=jjdxm-periscope&v=LATEST
+[lastjar]:https://search.maven.org/remote_content?g=com.dou361.periscope&a=jjdxm-periscope&v=LATEST
 [icon01]:https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon01.png
 [icon02]:https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon02.png
