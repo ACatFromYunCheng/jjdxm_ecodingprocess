@@ -1,7 +1,7 @@
 
 # [jjdxmperiscope][project] #
 ## Introduction ##
-[apk下载][downapk]
+
 ## Features ##
 
 ## Screenshots ##
@@ -30,7 +30,7 @@ or Gradle:
 	compile 'com.dou361.periscope:jjdxm-periscope:x.x.x'
 
 
-jjdxm-update requires at minimum Java 15 or Android 4.0.
+jjdxm-periscope requires at minimum Java 15 or Android 4.0.
 
 ## Get Started ##
 
