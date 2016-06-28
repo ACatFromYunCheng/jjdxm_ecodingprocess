@@ -1,13 +1,13 @@
 
-# [jjdxmperiscope][project] #
+# [jjdxm_periscope][project] #
 ## Introduction ##
 
 ## Features ##
 
 ## Screenshots ##
 
-<img src="https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon01.png" width="300"> 
-<img src="https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon02.png" width="300"> 
+<img src="https://raw.githubusercontent.com/jjdxmashl/jjdxm_periscope/master/screenshots/icon01.png" width="300"> 
+<img src="https://raw.githubusercontent.com/jjdxmashl/jjdxm_periscope/master/screenshots/icon02.png" width="300"> 
  
 ## Download ##
 
@@ -72,10 +72,10 @@ If you find any bug when using project, please report [here][issues]. Thanks for
 
 [web]:http://www.dou361.com
 [github]:https://github.com/jjdxmashl/
-[project]:https://github.com/jjdxmashl/jjdxmperiscope/
-[issues]:https://github.com/jjdxmashl/jjdxmperiscope/issues/new
-[downapk]:https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/apk/app-debug.apk
-[lastaar]:https://search.maven.org/remote_content?g=com.dou361.periscope&a=jjdxm-periscope&v=LATEST
-[lastjar]:https://search.maven.org/remote_content?g=com.dou361.periscope&a=jjdxm-periscope&v=LATEST
-[icon01]:https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon01.png
-[icon02]:https://raw.githubusercontent.com/jjdxmashl/jjdxmperiscope/master/screenshots/icon02.png
+[project]:https://github.com/jjdxmashl/jjdxm_periscope/
+[issues]:https://github.com/jjdxmashl/jjdxm_periscope/issues/new
+[downapk]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_periscope/master/apk/app-debug.apk
+[lastaar]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_periscope/master/release/jjdxm-periscope-1.0.0.aar
+[lastjar]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_periscope/master/release/jjdxm-periscope-1.0.0.jar
+[icon01]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_periscope/master/screenshots/icon01.png
+[icon02]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_periscope/master/screenshots/icon02.png
