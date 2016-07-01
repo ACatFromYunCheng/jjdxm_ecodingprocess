@@ -1,0 +1,41 @@
+gpg --gen-key  开始注册
+
+gpg --list-keys  查看结果
+
+gpg --keyserver hkp://pool.sks-keyservers.net --send-keys PUBLIC_KEY_ID  设置密码
+
+gpg -a --export yourmail@email.com > public_key_sender.asc   导出文件
+gpg -a --export-secret-key yourmail@email.com > private_key_sender.asc
+
+Real name: 陈冠明
+Name must be at least 5 characters long
+Real name: chenguanming
+Email address: 316988670@qq.com
+Comment:
+You selected this USER-ID:
+    "chenguanming <316988670@qq.com>"
+
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? o
+You need a Passphrase to protect your secret key.
+
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+gpg: key 6F9E50F4 marked as ultimately trusted
+public and secret key created and signed.
+
+gpg: checking the trustdb
+gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+pub   2048R/6F9E50F4 2016-07-01
+      Key fingerprint = 13CF 2C8B 33BA 6436 EF3A  87F0 DD1A 7263 6F9E 50F4
+uid       [ultimate] chenguanming <316988670@qq.com>
+sub   2048R/9BF53850 2016-07-01
+
+PS C:\Users\Admin>
+
