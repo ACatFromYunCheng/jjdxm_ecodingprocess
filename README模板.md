@@ -13,10 +13,6 @@
 
 [demo apk下载][downapk]
 
-[下载最新版本aar][lastaar]
-
-[下载最新版本jar][lastjar]
-
 Download or grab via Maven:
 
 	<dependency>
@@ -29,6 +25,10 @@ or Gradle:
 
 	compile 'com.dou361.periscope:jjdxm-periscope:x.x.x'
 
+
+历史版本：
+
+	compile 'com.dou361.periscope:jjdxm-periscope:1.0.0'
 
 jjdxm-periscope requires at minimum Java 15 or Android 4.0.
 
