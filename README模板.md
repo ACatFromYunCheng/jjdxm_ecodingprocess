@@ -46,10 +46,10 @@ or Gradle:
 
 	compile 'com.dou361.periscope:jjdxm-periscope:1.0.0'
 
+jjdxm-periscope requires at minimum Java 15 or Android 4.0.
+
 
 [架包的打包引用以及冲突解决][jaraar]
-
-jjdxm-periscope requires at minimum Java 15 or Android 4.0.
 
 ## Proguard ##
 
