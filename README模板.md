@@ -12,7 +12,7 @@
 
 项目中如有不同程度的参考借鉴前辈们的文章、项目会在下面注明出处的，纯属为了个人以后开发工作或者文档能力的方便。如有侵犯到您的合法权益，对您造成了困惑，请联系协商解决，望多多谅解哈！若您也有共同的兴趣交流技术上的问题加入交流群QQ： 548545202
 
-感谢作者[shelwee][author]，本项目是基于[UpdateHelper][url]项目
+感谢作者[程序亦非猿][author]，本项目是基于[一步一步教你实现Periscope点赞效果][url]文章实现的
 
 ## Introduction ##
 
@@ -55,10 +55,8 @@ jjdxm-periscope requires at minimum Java 15 or Android 4.0.
 
 根据你的混淆器配置和使用，您可能需要在你的proguard文件内配置以下内容：
 
-	-keep public class * implements com.bumptech.glide.module.GlideModule
-	-keep public enum com.bumptech.glide.load.resource.bitmap.ImageHeaderParser$** {
-	  **[] $VALUES;
-	  public *;
+	-keep com.dou361.periscope.** {
+    *;
 	}
 
 
@@ -113,5 +111,5 @@ If you find any bug when using project, please report [here][issues]. Thanks for
 [icon02]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_periscope/master/screenshots/icon02.png
 [jaraar]:https://github.com/jjdxmashl/jjdxm_ecodingprocess/blob/master/架包的打包引用以及冲突解决.md
 [minify]:https://github.com/jjdxmashl/jjdxm_ecodingprocess/blob/master/AndroidStudio代码混淆注意的问题.md
-[author]:https://github.com/shelwee
-[url]:https://github.com/shelwee/UpdateHelper
+[author]:http://www.jianshu.com/users/ec59bd61433a/latest_articles
+[url]:http://www.jianshu.com/p/03fdcfd3ae9c?utm_campaign=maleskine&utm_content=note&utm_medium=writer_share
