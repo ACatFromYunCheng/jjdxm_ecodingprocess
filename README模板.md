@@ -12,10 +12,10 @@
 
 项目中如有不同程度的参考借鉴前辈们的文章、项目会在下面注明出处的，纯属为了个人以后开发工作或者文档能力的方便。如有侵犯到您的合法权益，对您造成了困惑，请联系协商解决，望多多谅解哈！若您也有共同的兴趣交流技术上的问题加入交流群QQ： 548545202
 
-感谢作者[程序亦非猿][author]，本项目是基于[一步一步教你实现Periscope点赞效果][url]文章实现的
+感谢作者[author][author]，本项目是基于[project][url]文章实现的
 
 ## Introduction ##
-
+[English documentation](https://github.com/jjdxmashl/jjdxm_periscope/blob/master/README_EN.md)
 
 
 ## Features ##
@@ -55,7 +55,7 @@ jjdxm-periscope requires at minimum Java 15 or Android 4.0.
 
 根据你的混淆器配置和使用，您可能需要在你的proguard文件内配置以下内容：
 
-	-keep com.dou361.periscope.** {
+	-keep class com.dou361.** {
     *;
 	}
 
